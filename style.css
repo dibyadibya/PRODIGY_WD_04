@@ -1,0 +1,87 @@
+#home {
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    background-color: #f0e68c; /* Light golden background color */
+}
+
+#home .overlay {
+    background-color: #ff6347; /* Bright coral color */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    max-width: 100%;
+    margin-bottom: 50px;
+    border: 4px solid #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 50px;
+    background-color: #87cefa; /* Light sky blue background */
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button, a.btn {
+    background-color: #32cd32; /* Lime green */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, a.btn:hover {
+    background-color: #228b22; /* Darker green */
+}
+
+/* Additional Bright Colors */
+
+#about {
+    background-color: #ffeb3b; /* Bright yellow background for the about section */
+    color: #333;
+    padding: 3rem 2rem;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+#contact {
+    background-color: #20b2aa; /* Teal background for the contact section */
+    color: #fff;
+    padding: 3rem 2rem;
+    border-radius: 10px;
+}
+
+.bold-text, 
+#experience h3, 
+#experience p, 
+#skills ul li, 
+#interests ul li, 
+#interests p, 
+#contact p, 
+#contact ul li {
+    font-weight: bold;
+}
